@@ -7,13 +7,13 @@
 }
 
 body{
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Quicksand', sans-serif;
     background: var(--Dark-cyan);
     display: flex;
-    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat, no-repeat;
@@ -70,8 +70,9 @@ body{
 
 .profile-card-bottom__datos-followers{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-top: 1px solid var(--Dark-gray);
+    padding: 15px 50px 15px 35px;
 }
 
 .profile-card-bottom__datos-followers div p:nth-child(1){
